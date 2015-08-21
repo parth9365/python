@@ -1,0 +1,64 @@
+#print in python
+
+print "hello"
+
+#arithmetic operations
+10/3 = 3
+10/3.0 = 2.3333333
+
+#variable assignment
+a = "hello"
+
+#concatination can be done by "+" or "," as well
+a = "hello"
+b = "world"
+print a,b
+print a+b
+
+#multiplication of string
+a = "hi"
+print a*3 #output: hi hi hi 
+
+
+#take input from user
+a = raw_input()
+a = raw_input("Enter any number: ")
+
+#evaluate the value of input if it's integer then variable type is integer, if it's string variable type is string
+a = eval(raw_input())
+
+#lists in python
+fruits = ["apple", "orange", "mango"]
+fruits[0:2] # ['apple', 'orange']
+
+a = [1,2,3]
+b = [4,5,6]
+c = a+b 	#output: [1,2,3,4,5,6]
+
+#sort list
+list.sort()
+
+
+
+#defind tuple which is same as list but won't allow you to modify
+tup = (1,2,3,4)
+del tup
+
+#data-dictionary
+dict = {1: 'alpha', 2: 'beta', 3:'theta'}
+
+
+
+#Introduction to computation and programming with python : john
+#pydev-baroda
+
+
+
+#functions:
+#declared using keyword def
+
+
+
+The constructor is always written as a function called __init__(). it must always take as its first argument a referenced to the instance being constructed. This is typically called self. The rest of the arguments are up to the programmer.
+
+the object on the first line is the superclass, i.e. this says that MyClss is a subclass of object
