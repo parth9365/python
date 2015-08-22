@@ -9,3 +9,18 @@
 
 
 #twisted: asynchronous network library
+
+#install virtual env 
+sudo pip install virtualenv
+
+
+#set default virtual environment
+mkdir flaskproject
+cd flaskproject
+virtualenv venv
+
+#activate environment
+. venv/bin/activate
+
+#install flask
+pip install flask
