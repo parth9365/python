@@ -1,0 +1,11 @@
+#sockets
+	message
+	create object
+	get name
+	open port
+	bind port 
+	wait 
+	done
+
+
+#twisted: asynchronous network library
